@@ -1,0 +1,20 @@
+1.Napišite razred Ura, ki ima lastnosti:
+
+ure (vrednosti med 0 - 23),
+minute (vrednosti med 0 in 59),
+sekunde (vrednosti med 0 in 59).
+desetinke (vrednosti med 0 in 9)
+V razredu napišite dva konstruktorja:
+
+prvi ne prejme nobenega parametra, vse lastnosti postavi na 0.
+drugi prejme vse štiri parametre ter z njimi nastavi ustrezne lastnosti.
+V razredu napišite še naslednje metode:
+
+desetinkeGor()*, ki poveča desetinke za 1. Če so desetinke 9, jih ob povečanju nastavi na 0 in povečaj sekunde.
+sekundeGor()**, ki poveča sekunde za 1. Če so sekunde 59, jih ob povečanju nastavi na 0 in povečaj minute.
+minuteGor()**, ki poveča minute za 1. Če so minute 59, jih ob povečanju nastavi na 0 in povečaj ure.
+ureGor()***, ki poveča ure za 1. Če so ure 23, jih ob povečanju nastavi na 0
+pristej(Ura u), ki trenutnemu objektu prišteje čas objekta u.
+izpisi(), ki izpiše uro v formatu hh:mm:ss,d (npr.: 07:43:05,9). Izpis ur, minut in sekund opremi z vodilno 0, če so vrednosti manjše od 10.
+
+2.
