@@ -61,7 +61,7 @@
             transform: scale(1.2);
         }
         #main>article {
-            font-size: 14px;
+            font-size: 20px;
             margin: 1px;
             padding: 2px;
             /*border: 1px solid black;*/
@@ -138,6 +138,10 @@
                 max-height: 50px;
             }
         }
+	    #meni {
+    		position: sticky;
+		top: 0;
+	    }
         ul {
             list-style-type: none;
             text-align: center;
@@ -265,7 +269,7 @@
         </novice>
         </novice>
         <aside>
-            <ul>
+            <ul id= "meni">
                 <li><a href="#home">Začetna stran</a></li>
                 <li><a href="#news">Najnovejše novice</a></li>
                 <li><a href="#znamenitosti">Znamenitosti</a></li>
@@ -273,7 +277,7 @@
             </ul>
         </aside>
     </div>
-    <footer>
+    <footer id="info">
         <ul>
             <li>Avtor: Tvoja mama</li>
             <li>Telefon: +384 31 010 210</li>
